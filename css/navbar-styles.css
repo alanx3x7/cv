@@ -2,6 +2,10 @@
     background-color: #1B262C;
     padding: 4px 16px;
   }
+
+  .nav-item {
+    color: #BBE1FA;
+  }
   
   .nav-item .navbar-text-style.nav-link {
     color: #BBE1FA;
@@ -9,14 +13,20 @@
     margin-left: 20px;
     margin-right: 20px;
     padding: 4px 8px;
+    transition: color 0.1s ease-in;
   }
   
   .nav-item .navbar-text-style.nav-link:hover {
     color: #3282B8;
+    transition: color 0.1s ease-in;
   }
   
   .nav-item .navbar-text-style.nav-link:focus {
     color: #BBE1FA;
+  }
+
+  .nav-item .navbar-text-style.nav-link:focus:hover {
+    color: #3282B8;
   }
   
   .nav-item .navbar-icon-style.nav-link {
@@ -25,10 +35,12 @@
     margin-left: 20px;
     margin-right: 20px;
     padding: 4px 8px;
+    transition: color 0.1s ease-in;
   }
   
   .nav-item .navbar-icon-style.nav-link:hover {
     color: #3282B8;
+    transition: color 0.1s ease-in;
   }
   
   .nav-item .navbar-icon-style.nav-link:focus {
