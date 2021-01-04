@@ -1,0 +1,175 @@
+h1 {
+  color: #BBE1FA;
+  font-size: 5rem;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+div.home-title {
+  background-color: #0F4C75 ;
+  color: #BBE1FA;
+  padding: 100px;
+  position: relative;
+  text-align: center;
+}
+
+div.home-education {
+  background-color: #E4F6F6;
+  color:  #1B262C;
+}
+
+.education-left {
+  padding: 60px;
+}
+
+.education-icon {
+  background-color: #1B262C;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.home-education h2 {
+  padding: 20px 0 0 30px;
+}
+
+.home-education .row {
+  padding: 0% 15% 50px;
+}
+
+span.left-align {
+  float: right;
+}
+
+
+div.home-experience {
+  background-color: #0F4C75;
+  color: #BBE1FA;
+}
+
+.home-experience {
+  padding: 0px 20px 30px;
+}
+
+.home-experience h2 {
+  padding: 20px 0 0 10px;
+}
+
+.home-experience h4 {
+  font-size: 1.2rem;
+  font-weight: 650;
+}
+
+.home-experience h5 {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.experience-icon {
+  height: 100px;
+  width: 100px;
+  background-color: #FFF;;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 100%;
+}
+
+.experience-card {
+  background-color: #BBE1FA;
+  color: #1B262C;
+  margin: 20px 10px;
+}
+
+@media (max-width: 575px) {
+  .experience-card-left {
+    min-width: 110px;
+    min-height: 110px;
+  }
+}
+
+.experience-content {
+  padding: 10px;
+}
+
+.experience-content li {
+  font-size: 0.85rem;
+}
+
+.experience-content ul {
+  padding: 0 0 0 20px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.experience-date {
+  font-size: 1rem;
+}
+
+.experience-content .skill-token {
+  color: #BBE1FA;
+  margin: 0 5px;
+}
+
+.expand-button {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+
+.skill-col div {
+  margin: 20px 15%;
+  padding: 10px;
+  border: 10px solid #1B262C;
+}
+
+@media (max-width: 1201px) {
+  .skill-col div {
+    margin: 20px 8%;
+    padding: 10px;
+    border: 10px solid #1B262C;
+  }
+}
+
+.home-skills {
+  padding: 20px;
+  background-color: #E4F6F6;
+}
+
+.home-skills h2 {
+  padding: 10px 0 0 10px;
+}
+
+.home-skills h4 {
+  color: #1B262C;
+  margin-bottom: 20px;
+}
+
+
+.background-colourss-test {
+  background-color: #1B262C;
+  background-color: #0F4C75;
+  background-color: #3282B8;
+  background-color: #BBE1FA;
+}

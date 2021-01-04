@@ -1,0 +1,15 @@
+.bottom_container {
+    background-color:#1B262C;
+    padding: 50px 0 20px;
+    text-align: center;
+  }
+
+.footer-link {
+  color: #BBE1FA;
+  margin: 5px 20px;
+}
+
+.copyright {
+  color: #BBE1FA;
+  margin: 20px 0;
+}
