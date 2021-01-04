@@ -1,8 +1,11 @@
+.project-page-main {
+    text-align: center;
+}
+
 .projects-title-page-top h1 {
     height: 100px;
     padding: 100px 0 0;
 }
-
 
 .projects-title-page-top {
     background-color: #0f4c75;
@@ -11,10 +14,26 @@
     text-align: center;
 }
 
-
 .projects-title-page-bottom {
     color: #FFF;
     position: relative;
     z-index: 1;
     bottom: 6vw;
+}
+
+
+
+.project-tile-grid {
+    max-width: 1280px;
+    margin: auto;
+}
+
+@media (max-width: 1343px) {
+    .project-tile-grid {
+        margin: auto 30px;
+    }
+}
+
+.project-tile {
+    background-color: red;
 }
