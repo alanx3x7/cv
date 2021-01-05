@@ -10,7 +10,7 @@
 .projects-title-page-top {
     background-color: #0f4c75;
     background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
-    padding: 0px 0px 300px;
+    padding: 60px 0px 300px;
     text-align: center;
 }
 
@@ -73,6 +73,119 @@
     margin: 3% 3%;
     border-radius: 1rem;
 }
+
+
+
+/* EXPERIMENT */
+
+@media (min-width: 992px) {
+    .project-spotlight {
+        position: relative;
+    }
+
+    .project-spotlight::before {
+        right: 0;
+        left: auto;
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 40%;
+        height: 100%;
+        background-color: #F7F7FC;
+        content: '';
+    }
+}
+
+.project-spotlight .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 1280px) {
+    .project-spotlight .container {
+        max-width: 1260px;
+    }
+}
+
+.project-spotlight .sidebar {
+    padding-top: 3rem !important;
+}
+
+@media (min-width: 992px) {
+    .project-spotlight .sidebar {
+        background-color: #F7F7FC;
+        padding-top: 6rem;
+        order: 2;
+    }
+}
+
+.project-spotlight .sidebar-content {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    padding-top: 5rem !important;
+}
+
+@media (min-width: 992px) {
+    .project-spotlight .sidebar-content {
+        padding-bottom: 5rem !important;
+        padding-top: 5rem !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .project-spotlight.sidebar-content {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+
+.project-spotlight h2 {
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+    color: #4A4B65;
+}
+
+.project-spotlight h5 {
+    line-height: 1.4;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+    color: #4A5B65;
+}
+
+@media (max-width: 1200px) {
+    .project-spotlight h2 {
+        font-size: calc(1.325rem + 0.9vw);
+    }
+}
+
+.project-spotlight p {
+    font-size: 0.875rem !important;
+    padding-bottom: 0.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+
+.project-spotlight .gallery {
+    padding-top: 0.5rem !important;
+}
+
+@media (min-width: 992px) {
+    .project-spotlight .gallery {
+        padding-left: 15px;
+        padding-right: 2.5rem;
+        position: relative;
+        background-color: #FFF;
+        z-index: 2;
+        padding-top: 6rem !important;
+        padding-bottom: 1.5rem !important;
+        order: 1;
+    }
+}
+
 
 .project-tile-background-colours {
     color: #8E3B46;
