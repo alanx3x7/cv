@@ -3,15 +3,34 @@
 }
 
 .projects-title-page-top h1 {
-    height: 100px;
-    padding: 100px 0 0;
+    margin-top: 3rem;
+    padding: 0;
 }
 
 .projects-title-page-top {
     background-color: #0f4c75;
     background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
-    padding: 60px 0px 300px;
+    padding: 6rem 0px 3rem;
     text-align: center;
+    height: 436px;
+}
+
+@media (max-width: 767px) {
+    .projects-title-page-top {
+        height: 301px;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    .projects-title-page-top {
+        height: 385px;
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+    }
+
 }
 
 .projects-title-page-bottom {
@@ -76,6 +95,9 @@
 
 
 
+
+
+
 /* EXPERIMENT */
 
 @media (min-width: 992px) {
@@ -91,7 +113,7 @@
         top: 0;
         width: 40%;
         height: 100%;
-        background-color: #F7F7FC;
+        background-color: #BBE1FA;
         content: '';
     }
 }
@@ -116,7 +138,7 @@
 
 @media (min-width: 992px) {
     .project-spotlight .sidebar {
-        background-color: #F7F7FC;
+        background-color: #BBE1FA;
         padding-top: 6rem;
         order: 2;
     }
@@ -131,7 +153,7 @@
 @media (min-width: 992px) {
     .project-spotlight .sidebar-content {
         padding-bottom: 5rem !important;
-        padding-top: 5rem !important;
+        padding-top: 8rem !important;
     }
 }
 
@@ -169,23 +191,82 @@
 }
 
 
-.project-spotlight .gallery {
+/* .project-spotlight .gallery {
     padding-top: 0.5rem !important;
-}
+} */
 
+
+/* SPOTLIGHT IMAGES */
 @media (min-width: 992px) {
     .project-spotlight .gallery {
-        padding-left: 15px;
-        padding-right: 2.5rem;
+        padding: 8rem 2.5rem 1.5rem 1rem;
         position: relative;
-        background-color: #FFF;
         z-index: 2;
-        padding-top: 6rem !important;
-        padding-bottom: 1.5rem !important;
-        order: 1;
+        order: 1
+    }
+
+    .project-spotlight .gallery-container {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
     }
 }
 
+.project-spotlight .gallery-item {
+    margin-bottom: 30px !important;
+    display: block;
+    position: relative;
+    text-decoration: none !important;
+    overflow: hidden;
+    border-radius: 1rem !important;
+    color: #766DF4;
+    background-color: transparent;
+    transition: color 0.2s ease-in-out;
+}
+
+.project-spotlight .gallery-item::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease-in-out;
+    background-color: rgba(55, 56, 78, 0.55);
+    content: '';
+    opacity: 0;
+    z-index: 1;
+}
+
+.project-spotlight .gallery-item::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2.875rem;
+    height: 2.875rem;
+    margin-top: -1.4375rem;
+    margin-left: -1.4375rem;
+    transform: scale(0.3);
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 2.875rem;
+    content: '/ea25';
+    z-index: 5;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.project-spotlight .gallery-item img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: 10px solid #BBE1FA;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin: auto;
+}
 
 .project-tile-background-colours {
     color: #8E3B46;
