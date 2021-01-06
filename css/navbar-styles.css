@@ -215,6 +215,11 @@ div.navbar-nav.ml-auto {
     margin-bottom: 2px;
   }
 
+  .navbar-toggler-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+
   .dropdown-toggle {
     padding-top: 0;
     padding-bottom: 0;
@@ -227,6 +232,7 @@ div.navbar-nav.ml-auto {
   .dropdown-toggle-split#navbarDropdown {
     align-self: unset;
     margin: 0 0 0 0;
+    height: 3rem;
   }
 
   .nav-item.dropdown .btn-group {
@@ -240,4 +246,14 @@ div.navbar-nav.ml-auto {
   .navbar-collapse .nav-icon {
     margin-left: 28px !important;
   }
+
+  .nav-link.navbar-text-style.dropdown-toggle .btn-navbar {
+    font-size: 1.5rem;
+    height: 3rem;
+  }
+
+  .dropdown-menu .dropdown-item {
+    font-size: 1.2rem;
+  }
+
 }
