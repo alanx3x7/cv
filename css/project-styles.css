@@ -166,13 +166,14 @@
 
 .project-spotlight h2 {
     line-height: 1.25;
-    margin-bottom: 0.75rem;
+    margin-bottom: 2rem;
     font-weight: 600;
     color: #4A4B65;
 }
 
 .project-spotlight h5 {
     line-height: 1.4;
+    margin-top: 0.75rem;
     margin-bottom: 0.75rem;
     font-weight: 600;
     color: #4A5B65;
@@ -187,7 +188,15 @@
 .project-spotlight p {
     font-size: 0.875rem !important;
     padding-bottom: 0.5rem !important;
-    margin-bottom: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+    text-align: justify;
+}
+
+.project-spotlight li {
+    font-size: 0.875rem !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    text-align: justify;
 }
 
 
@@ -221,6 +230,8 @@
     color: #766DF4;
     background-color: transparent;
     transition: color 0.2s ease-in-out;
+    box-shadow: 0 0 0.825rem -0.17rem #CCC !important;
+    transition: all 0.2s ease-out;
 }
 
 .project-spotlight .gallery-item::before {
@@ -262,10 +273,31 @@
     width: 100%;
     max-width: 100%;
     height: auto;
-    border: 10px solid #BBE1FA;
+    border: 5px solid #BBE1FA;
     border-radius: 1rem;
     overflow: hidden;
     margin: auto;
+}
+
+.project-spotlight .gallery-item:hover {
+    box-shadow: 4px 4px 0.825rem -0.17rem rgba(0,0,0,0.736) !important;
+    text-decoration: none;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.project-skill-token {
+    background-color:   #E0777D;
+    color: #FFF;
+    margin: 0px 2px;
+}
+
+.project-date {
+    display: inline-block;
+    padding-right: 2rem;
+}
+
+.project-skills {
+    display: inline-block;
 }
 
 .project-tile-background-colours {
