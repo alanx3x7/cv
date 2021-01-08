@@ -17,6 +17,11 @@ code {
     monospace;
 }
 
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 div.home-title {
   background-color: #0F4C75 ;
   color: #BBE1FA;
