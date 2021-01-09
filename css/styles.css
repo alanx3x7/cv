@@ -173,6 +173,36 @@ div.home-experience {
 }
 
 
+/* POPUP MODAL STYLES */
+.modal-dialog .modal-content {
+  background-color: #BBE1FA;
+  color: #1B262C;
+}
+
+.modal-dialog .modal-header {
+  border-bottom-width: 2px;
+  border-color: #1B262C;
+  display: block;
+}
+
+.modal-dialog .modal-body {
+  padding: 2px;
+}
+
+.modal-dialog .modal-footer {
+  padding: 2px 12px;
+  border-width: 0;
+}
+
+.modal-dialog h4, .modal-dialog h5 {
+  margin-bottom: 0;
+}
+
+.modal-dialog .modal-body ul {
+  height: auto;
+}
+
+
 .background-colourss-test {
   background-color: #1B262C;
   background-color: #0F4C75;
